@@ -1,6 +1,6 @@
 # Google-Scholar-querier
 
-##### install dependencies
+##### Install dependencies
 
 ```sh
 $ pip3 install scholarly
