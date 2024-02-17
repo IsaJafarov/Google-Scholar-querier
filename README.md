@@ -9,13 +9,13 @@ $ pip3 install scholarly
 ```sh
 $ python3 collect.py --help
 Options:
---only-title             Search keyword only in the title. By default searches the whole document.
---hide-no-venue          Hide publication that don't have a venue. Generally includes Book, Citation...
---journal        Journal to search for
+--only-title             Search keyword only in the title. By default, it searches the whole document.
+--hide-no-venue          Hide publications that don\'t have a venue. Generally includes Book, Citation...
+--journal                Journal to search for
 --help                   Show this message
 Keyword operators: 
 --and    All the keywords should appear
---or     At least on of the keywords should appear
+--or     At least one of the keywords should appear
 --not    Keywords should not appear
 --size   Number of the publication to display (By default 10)
 
