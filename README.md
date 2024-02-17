@@ -17,7 +17,7 @@ Keyword operators:
 --and    All the keywords should appear
 --or     At least one of the keywords should appear
 --not    Keywords should not appear
---size   Number of the publication to display (By default 10)
+--size   Number of the publications to display (By default 10)
 
 Sample command: python3 collect.py --only-title --and "game security" --or "cheat hack" --not "theory" --journal ACM --size 10
 
