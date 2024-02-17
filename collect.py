@@ -32,7 +32,6 @@ def parse_command_line_arguments():
                 size = int(arg)
             elif opt in ["--help"]:
                 print_help()
-                
             elif opt in ["--only-title"]:
                 query += "allintitle: "
             elif opt in ["--and"]:
