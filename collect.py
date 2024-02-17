@@ -4,15 +4,15 @@ from scholarly import scholarly, ProxyGenerator
 
 def print_help():
     help = "Options:\n"+\
-    "--only-title \t\t Search keyword only in the title. By default searches the whole document.\n" + \
-    "--hide-no-venue \t Hide publication that don't have a venue. Generally includes Book, Citation...\n"+\
-    "--journal \t Journal to search for\n"+\
+    "--only-title \t\t Search keyword only in the title. By default, it searches the whole document.\n" + \
+    "--hide-no-venue \t Hide publications that don\'t have a venue. Generally includes Book, Citation...\n"+\
+    "--journal \t\t Journal to search for\n"+\
     "--help \t\t\t Show this message\n"+\
     "Keyword operators: \n"+\
     "--and \t All the keywords should appear\n"+\
     "--or \t At least on of the keywords should appear\n"+\
     "--not \t Keywords should not appear\n"+\
-    "--size \t Number of the publication to display (By default 10)\n"+\
+    "--size \t Number of the publications to display (By default 10)\n"+\
     "\nSample command: python3 collect.py --only-title --and \"game security\" --or \"cheat hack\" --not \"theory\" --journal ACM --size 10\n"
     print(help)
 
@@ -93,7 +93,3 @@ for i in range(size):
     print(str(i)+".")
     print_publication_bibliography(publication)
     print()
-
-
-    
-
