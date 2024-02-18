@@ -10,7 +10,7 @@ $ pip3 install scholarly
 $ python3 collect.py --help
 Options:
 --only-title             Search keyword only in the title. By default, it searches the whole document.
---hide-no-venue          Hide publications that don't have a venue. Generally includes Book, Thesis, Citation...
+--hide-no-venue          Hide publications that don\'t have a venue. Generally includes Book, Thesis, Citation...
 --journal                Journal to search for
 --help                   Show this message
 --citations              Show the publications that each publication is cited by
