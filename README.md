@@ -13,7 +13,7 @@ Options:
 --hide-no-venue          Hide publications that don\'t have a venue. Generally includes Book, Thesis, Citation...
 --journal                Journal to search for
 --help                   Show this message
---citations              Show the publications that each publication is cited by
+--citations              For each result, show the publications that cite it
 --scraperapi             To use ScraperAPI proxy, enter the API key. By default free proxy is used.
 Keyword operators: 
 --and    All the keywords should appear
